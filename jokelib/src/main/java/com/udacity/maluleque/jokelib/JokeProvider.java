@@ -2,8 +2,8 @@ package com.udacity.maluleque.jokelib;
 
 public class JokeProvider {
 
-    public String getJokeRandomly() {
-        return "Hello this is a Joke";
+    public Joke getJokeRandomly() {
+        return new Joke("Hello this is a Joke");
     }
 
 }

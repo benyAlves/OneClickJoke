@@ -9,8 +9,8 @@ public class JokeProviderTest {
     @Test
     public void getJokeRandomly() {
         JokeProvider jokeProvider = new JokeProvider();
-        String jokeRandomly = jokeProvider.getJokeRandomly();
+        Joke jokeRandomly = jokeProvider.getJokeRandomly();
 
-        Assert.assertFalse(jokeRandomly.isEmpty());
+        Assert.assertFalse(jokeRandomly.getDescription().isEmpty());
     }
 }
