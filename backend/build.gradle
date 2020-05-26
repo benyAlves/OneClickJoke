@@ -36,5 +36,5 @@ dependencies {
 
 appengine{
     //HERE add the path to your google cloud sdk directory like what i did here
-    tools.cloudSdkHome="C:\\Users\\bernardo.maluleque\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk"
+    tools.cloudSdkHome="C:\\Program Files\\google-cloud-sdk"
 }

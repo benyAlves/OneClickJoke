@@ -19,7 +19,7 @@ import com.udacity.maluleque.jokelib.JokeProvider;
 public class JokesEndpoint {
 
     /** A simple endpoint method that takes a name and says Hi back */
-    @ApiMethod(name = "sayHi")
+    @ApiMethod(name = "getJoke")
     public Joke getJoke() {
         JokeProvider provider = new JokeProvider();
         return provider.getJokeRandomly();
