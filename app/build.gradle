@@ -16,7 +16,7 @@ android {
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
-        minSdkVersion 16
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -47,6 +47,8 @@ dependencies {
     })
 
     implementation project(':jokelib')
+    implementation project(':uilib')
 
     testImplementation 'junit:junit:4.13'
+
 }
