@@ -1,0 +1,64 @@
+May 26, 2020 10:57:45 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\bernardo.maluleque\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\bernardo.maluleque\AndroidStudioProjects\ud867\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+2020-05-26 10:57:45.414:INFO::main: Logging initialized @382ms to org.eclipse.jetty.util.log.StdErrLog
+2020-05-26 10:57:45.449:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+May 26, 2020 8:57:45 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\Users\bernardo.maluleque\AndroidStudioProjects\ud867\FinalProject\backend) is not equal to your 
+web application root (C:\Users\bernardo.maluleque\AndroidStudioProjects\ud867\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2020-05-26 10:57:46.169:INFO:oejs.Server:main: jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_202-release-1483-b03
+2020-05-26 10:57:46.765:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@5f8e8a9d{/,file:///C:/Users/bernardo.maluleque/AndroidStudioProjects/ud867/FinalProject/backend/build/exploded-backend/,AVAILABLE}{C:\Users\bernardo.maluleque\AndroidStudioProjects\ud867\FinalProject\backend\build\exploded-backend}
+2020-05-26 10:57:46.765:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2020-05-26 10:57:46.765:INFO:oejs.session:main: node0 Scavenging disabled
+2020-05-26 10:57:46.780:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@5f9d02cb{HTTP/1.1, (http/1.1)}{localhost:8080}
+2020-05-26 10:57:46.783:INFO:oejs.Server:main: Started @1751ms
+May 26, 2020 8:57:46 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+May 26, 2020 8:57:46 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+May 26, 2020 10:57:46 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+May 26, 2020 10:57:58 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico
+May 26, 2020 11:01:47 AM com.google.appengine.api.datastore.dev.LocalDatastoreService init
+INFO: Local Datastore initialized: 
+	Type: High Replication
+	Storage: C:\Users\bernardo.maluleque\AndroidStudioProjects\ud867\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-generated\local_db.bin
+May 26, 2020 11:01:47 AM com.google.appengine.api.datastore.dev.LocalDatastoreService load
+INFO: The backing store, C:\Users\bernardo.maluleque\AndroidStudioProjects\ud867\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-generated\local_db.bin, does not exist. It will be created.
+May 26, 2020 11:02:06 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico
+May 26, 2020 11:02:08 AM com.google.appengine.api.taskqueue.dev.LocalTaskQueue init
+INFO: LocalTaskQueue is initialized
+May 26, 2020 11:02:09 AM org.quartz.simpl.SimpleThreadPool initialize
+INFO: Job execution threads will use class loader of thread: qtp1509563803-30
+May 26, 2020 11:02:09 AM org.quartz.core.QuartzScheduler <init>
+INFO: Quartz Scheduler v.UNKNOWN.UNKNOWN.UNKNOWN created.
+May 26, 2020 11:02:09 AM org.quartz.simpl.RAMJobStore initialize
+INFO: RAMJobStore initialized.
+May 26, 2020 11:02:09 AM org.quartz.impl.StdSchedulerFactory instantiate
+INFO: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+May 26, 2020 11:02:09 AM org.quartz.impl.StdSchedulerFactory instantiate
+INFO: Quartz scheduler version: UNKNOWN.UNKNOWN.UNKNOWN
+May 26, 2020 11:02:09 AM org.quartz.core.QuartzScheduler start
+INFO: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+May 26, 2020 11:02:09 AM com.google.appengine.api.taskqueue.dev.LocalTaskQueue start_
+INFO: Local task queue initialized with base url http://localhost:8080
+May 26, 2020 11:02:10 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico
+May 26, 2020 11:02:15 AM com.google.appengine.api.search.dev.LocalSearchService <init>
+INFO: Local search service created
+May 26, 2020 11:02:15 AM com.google.appengine.api.search.dev.LuceneDirectoryMap$FileBased <init>
+SEVERE: File base storage: root directory doesn't exist
+May 26, 2020 11:02:15 AM com.google.appengine.api.search.dev.LocalSearchService init
+INFO: search initialized
+May 26, 2020 11:02:15 AM com.google.appengine.api.search.dev.LocalSearchService start
+INFO: search started
+May 26, 2020 11:03:20 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico
+2020-05-26 11:13:31.356:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@5f9d02cb{HTTP/1.1, (http/1.1)}{localhost:8080}
+2020-05-26 11:13:31.359:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@5f8e8a9d{/,file:///C:/Users/bernardo.maluleque/AndroidStudioProjects/ud867/FinalProject/backend/build/exploded-backend/,UNAVAILABLE}{C:\Users\bernardo.maluleque\AndroidStudioProjects\ud867\FinalProject\backend\build\exploded-backend}
+Shutting down.
+May 26, 2020 11:13:31 AM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
