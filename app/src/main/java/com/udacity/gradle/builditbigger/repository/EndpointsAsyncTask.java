@@ -64,8 +64,6 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
     @Override
     protected void onPostExecute(String joke) {
         progressBarVisibility.hideProgressBar();
-        if (joke != null) {
-            showJokeListener.openJokeActivity(joke);
-        }
+        showJokeListener.openJokeActivity(joke);
     }
 }
