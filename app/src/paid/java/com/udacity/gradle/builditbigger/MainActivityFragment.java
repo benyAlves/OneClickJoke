@@ -24,6 +24,7 @@ public class MainActivityFragment extends Fragment implements ProgressBarVisibil
     private Button buttonTellJoke;
 
     public MainActivityFragment() {
+        //Necessary to instantiation
     }
 
     @Override

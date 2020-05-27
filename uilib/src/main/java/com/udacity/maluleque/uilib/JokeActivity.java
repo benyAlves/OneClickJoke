@@ -17,11 +17,9 @@ public class JokeActivity extends AppCompatActivity {
         TextView textViewJoke = findViewById(R.id.textViewJoke);
 
         Bundle extras = getIntent().getExtras();
-        if (extras != null) {
-            if (extras.containsKey(JOKE)) {
+        if (extras != null && extras.containsKey(JOKE)) {
                 String joke = extras.getString(JOKE);
                 textViewJoke.setText(joke);
-            }
         }
     }
 }

@@ -5,13 +5,12 @@ import java.util.List;
 import java.util.Random;
 
 public class JokeProvider {
-
+    Random random = new Random();
     public Joke getJokeRandomly() {
         return new Joke(pickRandomJoke());
     }
 
     String pickRandomJoke() {
-        Random random = new Random();
         List<String> jokes = Arrays
                 .asList("Instead of \"the John,\" I call my toilet \"the Jim.\" That way it sounds better when I say I go to the Jim first thing every morning.",
                         "Have you ever tried eating a clock? It's really time-consuming, especially if you go for seconds.",
